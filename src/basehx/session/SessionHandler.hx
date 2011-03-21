@@ -23,8 +23,9 @@ class SessionHandler
 	
 	function registerErrorMessages()
 	{
-		Error.registerErrorType("SESSION.TIMEOUT", "Session timed out.");
-		Error.registerErrorType("SESSION.NO_SESSION", "No existing session found.");
+		// I'm going to change to doing this on an app basis now.
+		// Just emit errors in a CLASS.ERRROR_NAME format.
+		// eg. new Error("SessionHandler.SESSION_TIMEOUT");
 	}
 	
 	public function check():Void
