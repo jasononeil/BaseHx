@@ -9,6 +9,13 @@ class App
 	public static function initiate() {
 		startTime = php.Sys.time();
 		haxe.Log.trace = basehx.Log.trace;
+		
+		// If a function has been set to register our error messages, call it now before we go any further
+		if (AppConfig.errorRegistry != null)
+		{
+			AppConfig.errorRegistry();
+		}
+		
 		var request:String = php.Web.getParams().get("request");
 		basehx.Dispatcher.dispatch(request);
 	}

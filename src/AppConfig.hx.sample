@@ -73,4 +73,7 @@ class AppConfig
 	you can specify a table prefix to keep table names from overlapping
 	each other.  For example, "myapp1.0_" */
 	public static var tablePrefix:String;
+	
+	/** Register the error messages */
+	public static var errorRegistry:Void->Void = null;
 }
