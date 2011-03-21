@@ -6,4 +6,5 @@
 
 # Ignore generated files
 /php/
-/doc/api/
+/doc/api/index.html
+/doc/api/content/
