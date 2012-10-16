@@ -1,3 +1,29 @@
+
+
+---
+---
+---
+---
+---
+This project is deprecated.
+I did use it for one or two projects a few years ago.  But it was pretty incomplete and I was not a very
+experience programmer.  If you're looking for a haxe web framework, take a look at:
+
+ * UFront https://github.com/fponticelli/ufront/wiki
+ * Harfang http://haxe.org/com/libs/harfang
+
+---
+---
+---
+---
+---
+
+
+
+
+
+
+
 =============================================
 HxBase
 =============================================
